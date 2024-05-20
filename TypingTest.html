@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Typing Test</title>
+	<script src= "ScriptCode.js" type="text/javascript"></script>
+	<link href="design.css" rel="stylesheet" type="text/css">
+	<script src= "virtual3.js" type="text/javascript"></script>
+	<link href="virtual1.css" rel="stylesheet" type="text/css">
+	
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="/assets/dcode.css">
+    <link rel="stylesheet" href="keyboard/Keyboard.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+<body bgcolor="FFA07A">
+	<center><h1>
+		<font color="white">
+			<main>
+				<div id="text">
+						TYPING TUTOR
+				</div>
+			</main>
+		</font>
+	</h1></center>
+	
+	<CENTER>
+		<FORM name="theForm">
+			<TABLE id="tbl" BORDER=3 CELLSPACING=0 CELLPADDING=0 width="590" height="250">
+				<TR>
+					<TD id="td1"><font color="white">Are you a....</font></TD>
+					<TD align=center id="radio">
+						<input type=radio name="sme" value="Beginner" onClick="small()">Beginner
+						<input type=radio name="sme" value="Average" onClick="medium()">Average
+						<input type=radio name="sme" value="Expert" onClick="large()">Expert
+					</TD>
+					
+				</TR>
+				<TR>
+					<TD colspan=2><BR>
+						<center>
+							<input id="start" type=button value="Start Typing Test" name="start" onClick="beginIt()"></center><P>
+						    <textarea name="given" cols=85 rows=5 wrap=on onFocus="cheat()"></textarea>
+					</TD>
+				</TR>
+				<TR>
+					<TD colspan=2>
+						<center>
+							<input class="use-keyboard-input" type=text name="typed" size=75><br>
+							<input id="done" type=button value="DONE"  name="stop"  onClick="stopIt()">
+
+						</center>
+					</TD>
+				</TR>
+			</TABLE>
+		</FORM>
+	</CENTER><br><br><br><br>
+	
+</body>
+</html>

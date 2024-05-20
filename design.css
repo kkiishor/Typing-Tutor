@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box; 
+}
+#start{
+    font-size: 17px; font-weight: bold; border-radius: 10px; color: brown;
+    text-transform: uppercase;
+}
+#done{
+    font-size: 15px; font-weight: bold; border-radius: 8px;  color: brown;
+    background-image: linear-gradient(to bottom right,magenta,yellow);
+    
+}
+#radio,#td1{
+    font-weight: bold;
+}
+#tbl{
+    margin-top: 0px;
+    background-color:  lightblue;
+    
+}
+#m1{
+    font-weight: bold; font-size: 18px;
+}
+#m2{
+    color: bisque; font-size: 20px;
+}
+blink{
+    animation: blinker 2s linear infinite;
+}
+@keyframes blinker{
+    50%{opacity: 0;}
+}
+main {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#text {
+    background: url(https://media.giphy.com/media/3o6Ztb45EYezY9x9gQ/giphy.gif);
+    background-size: contain;
+    background-position: top left;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+ #Ref{
+    font-size: 15px; font-weight: bold; border-radius: 8px;  color: brown;
+    background-image: linear-gradient(to bottom right,magenta,yellow);
